@@ -1,0 +1,20 @@
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(144, 130, 130);
+  padding: 1%;
+  background-color: 1px solid black;
+  width: 25%;
+  height: 200px;
+
+  textarea {
+    height: 100px;
+  }
+}
